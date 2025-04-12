@@ -1,16 +1,1 @@
-name: product
-services:
-  user-pulse:
-    image: catopay/websocket
-    container_name: websocket
-    build:
-      context: .
-    ports:
-      - "3350:80"
-    environment:
-      MODE: "debug"
-      SERVICE_NAME: "websocket-service"
-      HTTP_PORT: "80"
-      JWT_SECRET: "hdflaflafadslfjoasjflsa"
-      REDIS_URL: "redis://localhost:6379"
-      HEALTH_CHECK_ROUTE: /healthcheck"
+
