@@ -1,0 +1,13 @@
+.idea/
+.vs
+.vscode
+config.json
+config.local.json
+config.dev.json
+gorestaurant
+main
+*.exe
+tmp
+bin
+.env
+user-pulse-service
